@@ -6,10 +6,17 @@
   "repository": "https://github.com/hgrias/Animal-Crossing-Share",
   "author": "Harrison Grias <hgrias@umich.edu>",
   "license": "MIT",
+  "scripts": {
+    "server": "node server/server.js",
+    "dev-server": "nodemon server/server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently --kill-others \"npm run client\" \"npm run dev-server\""
+  },
   "dependencies": {
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "concurrently": "^5.1.0"
+    "concurrently": "^5.1.0",
+    "nodemon": "^2.0.2"
   }
 }
