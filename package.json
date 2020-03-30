@@ -1,0 +1,15 @@
+{
+  "name": "animal_crossing_share",
+  "version": "1.0.0",
+  "description": "A website for people to share Animal Crossing: New Horizons designs and images",
+  "main": "index.js",
+  "repository": "https://github.com/hgrias/Animal-Crossing-Share",
+  "author": "Harrison Grias <hgrias@umich.edu>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "concurrently": "^5.1.0"
+  }
+}
