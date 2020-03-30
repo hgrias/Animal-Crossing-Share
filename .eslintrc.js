@@ -1,3 +1,1 @@
-module.exports = {
-  extends: "airbnb-base"
-};
+module.exports = { extends: "plugin:prettier/recommended" };
